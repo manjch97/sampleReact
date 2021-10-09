@@ -1,0 +1,43 @@
+@import '../../../assets/styles/variable.scss';
+
+.e3-nav-tabs {
+  &.nav-tabs {
+    .nav-link {
+      font-size: 14px !important;
+      height: auto !important;
+      margin-right: 0;
+      padding-left: 0px!important;
+      border-bottom-color: #BBBBBB;
+      color: #828282;
+      padding: 5px $baseSpace;
+      &.active, &:hover {
+        border-color: transparent transparent $primaryColor;
+        color: $primaryColor;
+        padding-left: 0px!important;
+      }
+    }
+  }
+}
+.e3-tab-title {
+  font-size: 15px;
+  color: #4F4F4F;
+  text-transform: uppercase;
+}
+.e3-event-tab {
+  display: block !important;
+  opacity: 0;
+  max-height: 1px;
+  overflow: hidden;
+  &.active {
+    opacity: 1;
+    max-height: none;
+    overflow: unset;
+  }
+}
+.bottonspace_tap15 {
+  margin-bottom: 15px;
+}
+.spc_pad_grid {
+  padding-top: 5px;
+  padding-bottom: 2px;
+}

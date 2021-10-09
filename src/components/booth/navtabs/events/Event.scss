@@ -1,0 +1,210 @@
+@import '../../../../assets/styles/variable.scss';
+
+.e3-event-calendar {
+  .bell div{background-color: gray !important;}
+  .fc {
+    .fc-prev-button, .fc-next-button {
+      background: #fff;
+      border: 0;
+      color: #262F56;
+    }
+  }
+}
+
+#allRequestTable{    
+  thead {
+    background-color: #fff;
+  }
+  tbody {
+    overflow-y: scroll;
+    height: 140px;
+    font-size: 12px;
+
+  }
+  th{font-size: 13px; font-weight: 500; color: #4F4F4F;}
+   td, th {
+  
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 160px;
+    vertical-align: middle;
+  }
+  th.req_dropdown {
+    overflow: unset;
+  }
+  .btnWidth{min-width: 172px;}
+    .avatarWin{min-width: 30px;max-width: 30px;max-height: 30px;line-height: 30px;font-size: 12px;
+      p{color:#231F20;}
+      img{min-width: 30px;max-width: 30px;min-height: 30px;}
+    }
+  button{width: 70px; height: 28px; font-size: 10px; border-radius: 2px;}  
+  .btn-success{font-size: 10px; }
+  }
+
+.rbc-toolbar {
+  position: relative;
+
+  .eventflexContanier {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+
+    .eventpush {
+      margin-left: auto;
+    }
+    button.e3-button.evnt-primary.btn-primary, 
+    button.e3-button.evnt-primary.btn-primary:focus {
+      width: 106px !important;
+      height: 28px !important;
+      background-color: #E73D2F !important;
+      border-radius: 2px;
+      color: #FFFFFF;
+      border: none !important;
+      padding: 0;
+      text-align: center !important;
+      outline: 0!important;
+    }
+    button.e3-button.event-secondary {
+      width: 89px !important;
+      height: 28px !important;
+      background-color: #27AE60 !important;
+      border-radius: 2px;
+      color: #FFFFFF;
+      border: none;
+      padding: 0;
+      text-align: center !important;
+    }
+    .rbc-btn-group {
+      button.event-leftarrow,
+      button.event-rightarrow {
+        padding: 0!important;
+      }
+    }
+  }
+}
+.eventdatefld {
+  margin-bottom: 27!important;
+  .form-label {
+    display: block!important;
+    margin-bottom: 0;
+    color: #495057;
+  }
+  .react-datepicker-wrapper {
+    width: 100%;
+    .form-control {
+      margin-bottom: 0px !important;
+    }
+  }
+}
+.eventrequest {
+  position: relative;
+  margin-bottom: 12px;
+  .requestflexrow  {
+    position: absolute;
+    top: -40px;
+    left: 300px;
+    display: block;
+  }
+
+  @media (max-width: 576px){
+    .requestflexrow  {
+      position: relative;
+      top: 0;
+      left: 0;
+
+      .flexcol {
+        text-align: right;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+.rbc-event {
+  .rbc-event-content {
+    .row {
+      height: 100%;
+
+      .col {
+        height: 100%;
+
+        img {
+          max-height: 100%;
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+.req_dropdown {  
+  .react-dropdown-select,
+  .react-dropdown-select:focus {
+    border: none;
+    outline: 0;
+    box-shadow: none;
+  }
+  .react-dropdown-select-input {
+    font-size: 13px;
+    font-weight: 500;
+    color: #4F4F4F;
+  }
+  .react-dropdown-select-item-selected {
+    color: #212529;
+  }
+}
+
+.datepickerIcon{ 
+  .dateicon{
+    background-image: url(../../../../assets/img/events/clockicon.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .timeicon{
+    background-image: url(../../../../assets/img/events/calendericon.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .uploadicon{
+    right: 0;
+    top: 0;
+  }
+  .uploadimg{
+    margin: 0 auto;
+  }
+  .custom-top{
+    top: 12px;
+  }
+  .image_name{
+    max-width: 50%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+.back-btns{
+  color:red;
+  margin-left: 25px;
+  margin-top: -18px;
+}
+#allRequestTable .table-responsive {
+  overflow: initial;
+}
+.e3_customrequest__control {
+  border: 0 !important;
+  box-shadow: none !important;
+
+  .e3_customrequest__indicator-separator {
+    width:0;
+  }
+  .e3_customrequest__single-value {
+    color: #4F4F4F;
+  }
+}
+.e3_customrequest__control:focus {
+  border: 0 !important;
+}
+.e3_customrequest__menu {
+  opacity: 100;
+}

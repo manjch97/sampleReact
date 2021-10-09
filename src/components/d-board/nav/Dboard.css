@@ -1,0 +1,58 @@
+.MuiChip-labelSmall {
+  padding: 4px !important;
+}
+.Avatar {
+  background-color: #c3c3c3;
+  border-radius: 123px;
+  width: 50px;
+  height: 50px;
+}
+.VideoIcon {
+  background-color: #151515;
+  color: #fff;
+  padding: 1px 1px;
+  border-radius: 22px;
+  position: absolute;
+  z-index: 9;
+  font-size: 7px;
+  width: 15px;
+  height: 15px;
+  line-height: 13px;
+  text-align: center;
+  cursor: pointer;
+  left: 47px;
+}
+
+.YourSchedule {
+  height: calc(100vh - 1%);
+  background-color: #efefef;
+  padding-top: 1.5em;
+}
+.viewAll {
+  color: #383838;
+  text-decoration: underline;
+  font-size: 12px;
+  cursor: pointer;
+}
+.live {
+  background-color: #fff;
+  padding: 1px 5px;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 9;
+  margin: 4px;
+  font-size: 9px;
+}
+
+.PUBGMobile {
+  border-radius: 3px !important;
+  padding: 5px !important;
+  background: rgb(105 105 105 / 87%) !important;
+  color: #fff !important;
+  margin-right: 5px;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+}
+.darkGray {
+  background-color: #383838 !important;
+}

@@ -1,0 +1,85 @@
+.svcardcontainer, .paymentform_container {
+    max-width: 353px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+  .paymentform_container {
+    margin-bottom: 10px;  
+  }
+  h5.savecd_title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0E0E10;
+    text-align: left;
+   
+  }
+  .svcard_item {
+    display: flex;
+    padding:16px 0;
+    align-items: center;
+    border-bottom: 2px solid#F2F2F2;
+  }
+  .svcaredimg_sec {
+    width: 52px;
+    height: 52px;
+    padding: 10px;
+    border-radius: 100%;
+    background: #FFFFFF;
+    border: 2px solid #E4E4E4;
+  }
+  .svcaredimg_sec img{
+    width: 100%;
+  }
+  .svcard_name {
+    font-size: 14px;
+    line-height: 16px;
+    color: #828282;
+  }
+  .svcard_type {
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+  }
+  .svtrans_date {
+    font-size: 12px;
+    line-height: 14px;
+    color: #27AE60;
+  }
+  .svcard_detailwr {
+    text-align: left;
+    padding-left: 1rem;
+  }
+  .svcardselectwr {
+    padding-left: 2rem;
+    margin-left: auto;
+  }
+  .svcardselectwr .form-group {
+    margin-bottom: 0;
+  }
+  .svcard_term .termsofservice {
+    padding-left: 10px;
+  }
+  .svcard_term span {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .paymentform_container .form-group label{
+    margin-bottom: 0px;
+  }
+  .paymentform_container .form-group label.text-muted {
+    color: #828282;
+  }
+  .paymentform_containe .form-control,   .paymentform_containe .form-control:focus {
+    color: #333333;
+  }
+  .pspacebtm {
+      padding-bottom: 15px;
+  }
+  .paymentform_container .payment-validation-msg.tworowsmsg {
+    top: -3em;
+  }
+  .paymt_bottomsec {
+    max-width: 550px;
+    margin: 0 auto;
+  }

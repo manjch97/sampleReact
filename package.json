@@ -1,0 +1,121 @@
+{
+  "name": "org.e3.event",
+  "displayName": "e3EventApp",
+  "version": "1.0.0",
+  "homepage": "./",
+  "description": "E3 Event.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "npm install react-datepicker --legacy-peer-deps && react-scripts build && node scripts/postbuild.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "ecosystem:e3"
+  ],
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@fullcalendar/daygrid": "^5.5.0",
+    "@fullcalendar/interaction": "^5.5.0",
+    "@fullcalendar/moment": "^5.5.0",
+    "@fullcalendar/react": "^5.5.0",
+    "@fullcalendar/timegrid": "^5.5.1",
+    "@paypal/react-paypal-js": "^4.1.1",
+    "@reduxjs/toolkit": "^1.5.0",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "axios": "^0.21.0",
+    "axios-mock-adapter": "^1.19.0",
+    "bootstrap": "^4.5.3",
+    "bs-custom-file-input": "^1.3.4",
+    "cordova": "^10.0.0",
+    "cordova-plugin-badge": "0.8.8",
+    "cordova-plugin-device": "2.0.3",
+    "cordova-plugin-local-notification": "0.9.0-beta.2",
+    "focus-trap-react": "^8.4.2",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.17.20",
+    "mdbreact": "^5.0.1",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-big-calendar": "^0.32.0",
+    "react-bootstrap": "^1.4.0",
+    "react-bootstrap-icons": "^1.1.0",
+    "react-circular-progressbar": "^2.0.3",
+    "react-cookie-consent": "^6.2.3",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-datepicker": "^3.6.0",
+    "react-detect-offline": "^2.4.3",
+    "react-dom": "^17.0.1",
+    "react-dropdown-select": "^4.7.3",
+    "react-error-boundary": "^3.1.1",
+    "react-focus-lock": "^2.5.0",
+    "react-gtm-module": "^2.0.11",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "react-idle-timer": "^4.5.6",
+    "react-infinite-scroll-component": "^6.0.0",
+    "react-meta-tags": "^1.0.1",
+    "react-multi-carousel": "^2.6.1",
+    "react-player": "^2.9.0",
+    "react-redux": "^7.2.2",
+    "react-responsive-modal": "^6.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "react-screen-orientation": "0.0.4",
+    "react-scripts": "4.0.1",
+    "react-select": "^4.2.1",
+    "react-slick": "^0.27.13",
+    "react-sliding-pane": "^7.0.0",
+    "react-toastify": "^6.2.0",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "rimraf": "^2.7.1",
+    "stream-chat-react": "^4.1.3",
+    "styled-components": "^5.2.1",
+    "use-viewport-sizes": "^0.2.8",
+    "valid-data-url": "^3.0.1",
+    "validator": "^13.5.2",
+    "video.js": "^7.11.4",
+    "web-vitals": "^0.2.4"
+  },
+  "devDependencies": {
+    "cordova-android": "^9.0.0",
+    "cordova-ios": "^6.2.0",
+    "cordova-plugin-whitelist": "^1.3.4",
+    "emulator": "^0.1.0",
+    "eslint": "^7.11.0",
+    "redux-devtools-extension": "^2.13.8"
+  },
+  "author": "E3 Event Team",
+  "license": "Apache-2.0",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-inappbrowser": {}
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}

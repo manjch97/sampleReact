@@ -1,0 +1,26 @@
+@import "../styles/variable.scss";
+@import "../styles/mixin.scss";
+
+// ---------membership carousel-----------
+.priceing-table-main .slick-prev {
+    top: 50% !important;
+    left: -40px !important;
+}
+// ---------dashboard carousel-----------
+.happingNow{
+.slick-list{padding: 0px !important;}
+.slick-prev {
+    right: 20px !important;
+    top: -10px !important;
+    position: absolute;
+}
+ .slick-next {
+  right: -7px !important;
+    top: -10px !important;
+    position: absolute !important;
+}
+ .slick-arrow{background: none !important;}
+
+ .slick-arrow:before, [dir="rtl"] .slick-prev:before {
+    border: solid #2d2d2d !important;border-width: 0px 3px 3px 0px !important;}
+}   

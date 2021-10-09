@@ -1,0 +1,144 @@
+@import "../../assets/styles/variable.scss";
+
+.e3-people-item-card {
+  display: flex;
+  flex-direction: row;
+  // justify-content: space-between;
+  // align-items: center;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: 10px;
+  // position: relative;
+  .e3-people-img-card {
+    position: relative;
+    width: 43px;
+    height: 43px;
+    margin-bottom: 0;
+    line-height: 43px;
+    top: 0px;
+    img {
+      border-radius: 50%;
+    }
+  }
+  .e3-people-video-tag {
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #6fcf97;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 6px;
+    line-height: 13px;
+    padding-left: 1px;
+    svg {
+      width: 10px;
+      margin: 0 auto;
+    }
+  }
+  .e3-people-content-card {
+    width: 100%;
+    padding-left: $baseSpace;
+    .e3-people-name-card {
+      margin-bottom: 0;
+      font-size: 13px;
+      color: #171736;
+      max-width: 100%;
+      // white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
+  .e3-people-tags-card {
+    .badge {
+      margin-right: 4px;
+      border-radius: 2px;
+      background: #4f4f4f;
+      color: white;
+      text-transform: uppercase;
+    }
+  }
+  .e3-people-options-card {
+    background: transparent;
+    border: 0;
+    color: #adb5be;
+    max-width: 10px;
+    position: absolute;
+    right: 4px;
+    bottom: 5px;
+  }
+}
+[class*="col-sm-4"] {
+  padding-left: 0px;
+}
+.ca {
+  padding: 5px;
+}
+.e3-people-arrow-card-scroll {
+  background: white;
+  // border: 0;
+  // color: #fff;
+  max-width: 10px;
+  position: absolute;
+  right: 40px;
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .scrollCard {
+    overflow: hidden;
+    flex-wrap: nowrap;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .scrollCard {
+    overflow: hidden;
+    //   white-space: nowrap;
+  }
+  .re {
+    flex-wrap: nowrap;
+    //
+  }
+  // .cardDisplay .cardWidth{
+  //     min-width:18rem;
+  // }
+  // .cardDisplay{
+  //     display:block;
+  // }
+  // .cardWidth{
+  //     width: 100%;
+  // }
+  // .ca .cardWidth{
+  //     width:26rem;
+  // }
+  .e3-people-arrow-card-scroll {
+    display: block;
+  }
+}
+@media only screen and (max-width: 295px) {
+  .cardDisplay .cardWidth {
+    min-width: 13rem;
+  }
+}
+@media only screen and (max-width: 320px) and (min-width: 300px) {
+  .cardDisplay .cardWidth {
+    min-width: 15.5rem;
+  }
+}
+
+@media only screen and (max-width: 360px) and (min-width: 325px) {
+  .cardDisplay .cardWidth {
+    min-width: 18rem;
+  }
+}
+@media only screen and (max-width: 378px) and (min-width: 365px) {
+  .cardDisplay .cardWidth {
+    min-width: 19rem;
+  }
+}
+@media only screen and (max-width: 415px) and (min-width: 380px) {
+  .cardDisplay .cardWidth {
+    min-width: 21.5rem;
+  }
+}

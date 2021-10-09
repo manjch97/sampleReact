@@ -1,0 +1,7 @@
+.filter_button {
+  background-color: var(--primary);
+  border-radius: 20px;
+  &:hover {
+    background: var(--primary);
+  }
+}

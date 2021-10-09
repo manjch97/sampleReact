@@ -1,0 +1,105 @@
+.e3-userprofile-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    .e3-userprofile-title h4 {
+      margin-bottom: 10px;
+      color: #E73D2F;
+    }
+    
+    .e3-userprofile-subtitle{
+        margin-left: 1px;
+        margin-bottom: 10px;
+    }
+    .e3-userprofile-subtitle .badge {
+        margin-right: 4px;
+        margin-bottom: 0px;
+        border-radius: 2px;
+        background: #4F4F4F;;
+        color: white;
+        height: 15px;
+    }
+    // }
+    .e3-userprofile-logo {
+      width: 85px;
+      height: 85px;
+    //   background: white;
+      border-radius: 50%;
+      padding: 5px;
+      position: relative;
+    //   border: 1px solid #bdbdbd;
+      margin-right: 15px;
+      img {
+        max-height: 90px;
+        border-radius: 50%;
+        border: 2px solid #cfd8dc;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .e3-userprofile-badge {
+        position: absolute;
+        bottom: 20px;
+        background: #E73D2F;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 400;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 5px 10px;
+      }
+      .badge-dis{
+        display: none;
+      }
+    }
+    
+  }
+.button-we{
+    font-weight: 500;
+}  
+  .e3-userprofile-buttons-container {
+    margin-top: -20px;
+  }
+.e3-thanks{
+    font-weight: 500;
+}
+
+  // -----------media query---------
+  @media (max-width: 767px) {
+    .e3-userprofile-title-container {
+      .e3-userprofile-logo {
+        // width: 60px;
+        // height: 60px;
+  
+        img {
+          max-height: 70px;
+          top:25%
+        }
+      }
+  
+      .e3-userprofile-title h4 {
+        font-size: 1rem;
+      }
+    }
+  }
+@media (max-width:767px){
+  .e3-userprofile-title-container{
+    align-items: flex-start;
+    .e3-userprofile-title h4{
+      color:white;
+    }
+    
+  }
+  .e3-userprofile-title-container .e3-userprofile-logo  .badge-dis{
+    display: block;
+  }
+  .e3-button-dis{
+    display: none;
+  }
+  .e3-button-dis-align{
+    align-items: center;
+  }
+  
+}
+

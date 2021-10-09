@@ -1,0 +1,140 @@
+@import "../../../assets/styles/style.scss";
+
+.big {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  cursor: pointer;
+}
+
+.unchecked {
+  color: #fff !important;
+}
+
+.tit {
+  color: #333333;
+  font-size: 21px;
+  font-weight: 551;
+}
+.foll {
+  color: #333;
+  font-size: 12px;
+  opacity: 80%;
+}
+
+.checkboxArea {
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  // border-radius: 100px;
+}
+
+.checkboxArea .container {
+  display: block;
+  position: relative;
+  padding-left: 16px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkboxArea .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ffffff;
+  border: 1px solid #e2e2e2;
+  border-radius: 15px;
+}
+
+/* On mouse-over, add a grey background color */
+.checkboxArea .container:hover input ~ .checkmark {
+  background-color: #ffffff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkboxArea .container input:checked ~ .checkmark {
+  background-color: #e73d2f;
+  border: 1px solid #e73d2f;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkboxArea .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkboxArea .container .checkmark:after {
+  left: 8px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.border {
+  border-radius: 30px;
+}
+
+.Search-input {
+  background-color:unset;
+  border-radius: 0px;
+}
+
+.bottom-border {
+  border-bottom: 2px solid #f2f2f2;
+}
+
+.f-16 {
+  font-size: 16px;
+}
+.outlineBoxlayer {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.outlineBoxlayer .texthdlist {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+  color: #333333;
+}
+.outlineBoxlayer .articletxt {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px !important;
+  line-height: 15px;
+  color: #000000;
+}
+.pos_relative {
+  position: relative;
+}

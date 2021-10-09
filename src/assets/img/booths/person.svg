@@ -1,0 +1,18 @@
+<svg width="171" height="138" viewBox="0 0 171 138" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="171" height="138" fill="#E8E8E8"/>
+<g id="Help" clip-path="url(#clip0)">
+<rect width="1600" height="907" transform="translate(-301 -475)" fill="white"/>
+<g id="Component 55">
+<rect id="Rectangle 2645" width="171" height="138" rx="15" fill="#F8F8F8"/>
+</g>
+<g id="Group 5348">
+<ellipse id="Ellipse" cx="87.0866" cy="56.7042" rx="18.8187" ry="21.9552" stroke="#828282" stroke-width="4"/>
+<path id="Vector" d="M58.8585 110.024C58.8585 110.024 68.2679 97.4785 87.0866 97.4785C105.905 97.4785 115.315 110.024 115.315 110.024" stroke="#828282" stroke-width="4" stroke-linecap="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="1600" height="907" fill="white" transform="translate(-301 -475)"/>
+</clipPath>
+</defs>
+</svg>

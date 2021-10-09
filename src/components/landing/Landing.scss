@@ -1,0 +1,287 @@
+@import "../../assets/styles/style.scss";
+@import "../../assets/styles/variable.scss";
+
+.siginOverflow {
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+}
+.signupBG {
+  background: url("../../assets/img/landing/login.jpg") no-repeat;
+  background-size: cover;
+  height: 100%;
+  min-height: 101%;
+  background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.signup {
+  .btn-primary {
+    @include btn-primary;
+    width: 13rem;
+  }
+  h5 {
+    font-size: $fontSizeLogin;
+    font-size: $fontSizeLogin;
+  }
+  h1{
+    font-size: $fontSizeLogin;
+  }
+}
+.login {
+  .btn-primary {
+    @include btn-primary;
+    width: 100%;
+    @include btn-primary;
+    width: 100%;
+  }
+  .form-control {
+    font-size: 16px;
+    border: 2px solid #f2f2f2;
+    // margin-bottom: 10px !important;
+  }
+}
+.top {
+	position: absolute;
+	right: 15px;
+	position: absolute;
+	right: 0px;
+	width: 10rem;
+}
+.signup_top {
+  position: absolute;
+  left: 0px;
+  width: 14rem;
+}
+.signup_bottom {
+  position: absolute;
+  bottom: 0;
+	right: -7px;
+  width: 10rem;
+  transform: rotate(90deg);
+}
+.bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 15rem;
+}
+.left {
+  left: -10px;
+  transform: rotate(90deg);
+  top: 25px;
+  left: -10px;
+  transform: rotate(90deg);
+  top: 25px;
+}
+.right {
+  right: -22px;
+  transform: rotate(90deg);
+  bottom: 8px;
+  right: -22px;
+  transform: rotate(90deg);
+  bottom: 8px;
+}
+.upload {
+  text-align: center;
+  line-height: 10px;
+  padding: 0 15px;
+  color: #bdbdbd;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  z-index: 9;
+  padding: 0;
+}
+.custom-file-label::after {
+  background-color: #fff !important;
+  color: #fff !important;
+  padding: 0 !important;
+}
+
+@media (min-width: 1200px) {
+  .signup {
+    .btn-primary {
+      width: 300px;
+    }
+  }
+  .btn-secondary {
+    width: 300px !important;
+  }
+}
+.uploaad label {
+  display: inline-block;
+  background-color: indigo;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+// ---------------membership page css---------
+.membershipCard {
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+  border-radius: 10px;
+  width: 88% !important;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+.membershipCard:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  z-index: 1;
+}
+.membershipCard .Mcard {
+  background: #56ccf2;
+  text-align: center;
+  color: #fff;
+}
+.membershipCard .Mcard h4{
+	font-size: 17px;
+    padding: 10px;
+    background-color: rgb(129, 203, 239);
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.membershipCard .Mcard small{font-size: 17px;font-weight: 700;}
+.membershipCard .orange {background:#F2994A}
+.membershipCard .orange h4{ 	text-transform: uppercase;
+	background-color: rgb(232, 166, 104);}
+.membershipCard .purple {background:#BB6BD9}
+.membershipCard .purple h4{ 	text-transform: uppercase;
+	background-color: rgb(184, 127, 215);}
+.membershipCard .ribbon {
+  width: 86px;
+  font-size: 9px;
+  text-align: center;
+  color: #333333;
+  font-weight: 700;
+  background: #e0e0e0;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -19px;
+  top: 16px;
+  text-transform: uppercase;
+  padding: 2px;
+}
+
+.membershipCard .Mcard h2 {
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+.membershipCard svg {
+  color: #1E8549;
+  float: left;
+}
+.membershipCard .price-list {
+  display: inline-flex;
+  color: #828282;
+  font-size: 13px;
+}
+
+.membershipCard .price-list ul li {
+  font-size: 13px;
+  color: #999999;
+  line-height: 14px;
+  text-align: left;
+}
+.membershipCard .price-list ul {
+  padding: 0px;
+  list-style: none;
+  padding: 35px 30px 10px 14px;
+}
+.membershipCard .dotted {
+  border-bottom: 1px dashed #231F20;
+  margin-left: 25px;
+}
+
+.membershipCard .btn-primary {
+  @include btn-primary;
+  height: 40px;
+  width: 180px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+// ---------------slick carousel-------------
+.slick-prev:before {
+  border: solid #fff !important;
+  border-width: 0px 3px 3px 0px !important;
+  display: inline-block !important;
+  transform: rotate(135deg) !important;
+  -webkit-transform: rotate(135deg) !important;
+  width: 10px !important;
+  height: 10px !important;
+  content: "" !important;
+}
+
+.slick-next:before,
+[dir="rtl"] .slick-prev:before {
+  border: solid #fff !important;
+  border-width: 0px 3px 3px 0px !important;
+  display: inline-block !important;
+  transform: rotate(-45deg) !important;
+  -webkit-transform: rotate(-45deg) !important;
+  width: 10px !important;
+  height: 10px !important;
+  content: "" !important;
+}
+.slick-next,
+.slick-prev {
+  width: 35px !important;
+  height: 34px !important;
+  background: #bdbdbd !important;
+  border-radius: 123px;
+}
+.slick-prev {
+  // left: -40px !important;
+  top: 50% !important;
+}
+.slick-next {
+  right: -40px !important;
+  top: 50% !important;
+}
+.slick-list {
+  padding: 32px 0 !important;
+}
+
+// ----------intersts------
+
+.BoxShadow {
+  /*box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);*/
+  background: #FFFFFF;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+.slick-dots li button:before {
+  font-size: 22px !important;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 1 !important;
+  color: $primaryColor;
+}
+.login_btn:focus {
+  outline: 2px solid #FDD647 !important;
+  border-radius: 0px !important;
+}
+.login .btn-primary:focus {
+  border: 2px solid #FDD647 !important;
+  outline: 0 !important;
+}
+
+

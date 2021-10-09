@@ -1,0 +1,21 @@
+<svg width="84" height="70" viewBox="0 0 84 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="84" height="70" fill="#E8E8E8"/>
+<g id="Help">
+<g clip-path="url(#clip0)">
+<rect x="-15" y="-665" width="414" height="896" rx="40" fill="white"/>
+<g id="Group 5810">
+<g id="Component 52">
+<rect id="Rectangle 2645" width="84" height="70" rx="4" fill="#F8F8F8"/>
+</g>
+<g id="Bag">
+<path id="Rectangle" d="M36 28H31.5L28.5 44.5H55.5L52.5 28H48M36 28V23.5C36 20.1863 38.6863 17.5 42 17.5V17.5C45.3137 17.5 48 20.1863 48 23.5V28M36 28H48M36 28V32.5M48 28V32.5" stroke="#0E0E10" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect x="-15" y="-665" width="414" height="896" rx="40" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,64 @@
+.e3-people-item-network {
+    margin-bottom: 0px;
+    // position: relative;
+    .e3-people-img-network { 
+        // position: relative;
+        // width: 43px;
+        // height: 43px;
+        width: 40px;
+        height: 40px;
+        margin: 0 auto 10px;
+        line-height: normal;
+        top: 7px;
+        img { 
+            border-radius: 50%;
+            border: 2px solid #cfd8dc;
+        }
+    }
+    .networkimg{
+        width:61px;
+        height: 61px;
+    }
+    .e3-people-video-network-normal {
+        position: absolute;
+        top: -2px;
+        // right: 0px;
+        // display: inline-block;
+        width: 20px;
+        height: 12px;
+        background-color:  #C4C4C4;
+        border-radius: 17%;
+        text-align: center;
+        font-size: 6px;
+        line-height: 13px;
+        color:black;
+        .liveText{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: uppercase;
+           
+        }
+    }
+    .liveDisplayRed{
+        background-color: #E73D2F;
+        color: white;
+    }
+}
+.scrollIcon{
+    font-size: 1.33em;
+    color: #828282;
+}
+.e3-people-arrow-scroll {
+     background: white;
+    max-width: 10px;
+    position: absolute;
+    right:50px;
+    display: none;
+    top:0;
+}
+@media (max-width: 927px) {
+    .scrollPeople {
+      overflow: hidden;
+    }
+  }

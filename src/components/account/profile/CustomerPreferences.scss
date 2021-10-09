@@ -1,0 +1,239 @@
+@import "../../../assets/styles/variable.scss";
+@import "../../../assets/styles/style.scss";
+
+
+.big {
+    display:block;
+    width:100px;
+    height:100px;
+    background-color:red;
+    cursor:pointer;
+}
+
+.text-head {
+	font-weight: 700;
+}
+
+.topic {
+	color :#96979B;
+
+}
+
+.rotateDate {
+   /* -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+	
+    transform: rotate(
+270deg
+);
+    background-color: #e73d2f;
+    top: 52px;
+    left: -13px;
+    position: absolute;
+    color: #fff;
+    font-size: smaller;
+    border-bottom-left-radius: 7px;
+    padding: 5px;*/
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    background-color: #e73d2f;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    color: #fff;
+    font-size: smaller;
+    border-bottom-right-radius: 5px;
+    padding: 8px;
+    writing-mode: tb-rl;
+    border-top-left-radius: 5px;
+}
+
+
+.e-live {
+	background-color: #e73d2f !important;
+}
+
+
+.EventsLive{
+	position: absolute;
+	margin-left: 6px;margin-top: 6px;
+    width: 75%;
+}
+
+.EventsLive .PUBGMobile {
+    padding: 5px !important;
+    font-size: 10px !important;
+}
+
+.primary {
+	color: #e73d2f;
+}
+
+.event-avatar {
+	margin-top: 4px;
+}
+
+.event-avatar .ArcadeAvatar {
+    width: 45px !important;
+}
+
+.event-avatar .ArcadeAvatar img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+}
+
+.wall {
+    background-color: #F8F8F8;
+    display: block;
+	border-radius: 5px;
+	padding: 11px;
+}
+
+.enfluence .ArcadeAvatar {
+    width: 65px !important;
+}
+
+.enfluence .ArcadeAvatar img {
+    width: 58px;
+	height: 58px;
+	border-radius: 50px;
+}
+
+.enfluence .badge {
+	background-color: #4F4F4F !important; 
+	font-weight: 500 !important;
+	font-size: 12px;
+}
+
+.search-event{
+   background-color: #E0E0E0;
+   color:black;
+   margin-right: 3px;
+}
+
+
+// .frontline {
+// 	width: 50%;
+// }
+// .switch {
+// 	position: relative;
+// 	display: inline-block;
+//   }
+//   .switch-input {
+// 	display: none;
+//   }
+//   .switch-label {
+// 	display: block;
+// 	width: 48px;
+// 	height: 24px;
+// 	text-indent: -150%;
+// 	clip: rect(0 0 0 0);
+// 	color: transparent;
+// 	user-select: none;
+//   }
+//   .switch-label::before,
+//   .switch-label::after {
+// 	content: "";
+// 	display: block;
+// 	position: absolute;
+// 	cursor: pointer;
+//   }
+//   .switch-label::before {
+// 	width: 100%;
+// 	height: 100%;
+// 	background-color: #dedede;
+// 	border-radius: 9999em;
+// 	-webkit-transition: background-color 0.25s ease;
+// 	transition: background-color 0.25s ease;
+//   }
+//   .switch-label::after {
+// 	top: 0;
+// 	left: 0;
+// 	width: 24px;
+// 	height: 24px;
+// 	border-radius: 50%;
+// 	background-color: #fff;
+// 	box-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
+// 	-webkit-transition: left 0.25s ease;
+// 	transition: left 0.25s ease;
+//   }
+//   .switch-input:checked + .switch-label::before {
+// 	background-color: #89c12d;
+//   }
+//   .switch-input:checked + .switch-label::after {
+// 	left: 24px;
+//   }
+
+// .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover {
+// 	color: $primaryColor;
+
+// }
+
+.shadow-box{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding:25px;
+}
+.inf-title{
+    font-size: 14px;
+    text-align: left;
+    font-weight: 500;
+}
+.shadow-box .text-xl  {
+    color:$text-grey;
+}
+.customer-pref.LStab .nav-tabs .nav-item.show .nav-link, .customer-pref .nav-tabs .nav-link {
+    height: auto;
+}
+.customer-pref .nav-tabs .nav-item.show .nav-link, .customer-pref .nav-tabs .nav-link {
+    font-weight: bold !important;
+    font-style: normal;
+}
+.prefbooth_container .text-lg {
+    font-size: 14px !important;
+    font-weight: 500;
+}
+.customer-pref .nav-tabs {
+    margin-bottom: 10px !important;
+}
+
+.ArcadeAvatar span {
+    width: 58px;
+    background: #e8e8e8;
+    height: 58px;
+    padding: 17px;
+    border-radius: 100%;
+    border: solid 1px #dedede;
+}
+.ArcadeAvatar.eventListView span {
+    width: 43px;
+    height: 43px;
+    padding: 12px;
+}
+.pos_relative img {
+    border-radius: 5px;
+}
+.inftitle_ext {
+    margin-right: 22px;
+}
+.wallcontainer {
+    background-color: #F8F8F8;
+    display: block;
+	border-radius: 5px;
+	padding: 11px;
+    height: 100%;
+}
+@media all and (max-width: 1230px) and (min-width: 990px) {
+    .influnce_wrapper .row-cols-lg-3>* {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}

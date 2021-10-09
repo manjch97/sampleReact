@@ -1,0 +1,71 @@
+@import '../../../assets/styles/variable.scss';
+@import '../../../assets/styles/style.scss';
+
+.e3-people-item-recommend {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15px;
+    position: relative;
+    .e3-people-img-recommend { 
+        position: relative;
+        width: 59px;
+        height: 59px;
+        margin-bottom: 0;
+        line-height: normal;
+        top: 7px;
+        img { 
+            border-radius: 50%;
+        }
+    }
+    .e3-people-video-tag-recommend {
+        position: absolute;
+        top: -5px;
+        right: 0px;
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        background-color: #828282;
+        color: white;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 6px;
+        line-height: 13px;
+        padding-left: 1px;
+        svg {
+            width: 10px;
+            margin: 0 auto;
+        }
+    }
+    .e3-people-content-recommend {
+        width: 100%;
+        padding-left: $baseSpace;
+        .e3-people-name-recommend {
+            margin-bottom: 0;
+            font-size: 13px;
+            color: #333333;
+            max-width: 100%;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            font-style: normal;
+            font-weight: normal;
+        }
+    }
+    .e3-people-tags-recommend {
+        .badge {
+            margin-right: 4px;
+            border-radius: 2px;
+            background: #4F4F4F;
+            color: white;
+            text-transform: uppercase;
+            height: 18px;
+            font-size: 12px;
+        }
+    }
+    
+}
+.e3-people-item-recommend .e3-people-content-recommend .e3-people-name-recommend {
+    font-size: 15px;
+}

@@ -1,0 +1,35 @@
+.friendlist-heading.head {
+    margin-left: 50px;
+}
+
+.friendlist-people {
+   .message-btn {
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    border: 1px solid red !important;
+    padding: 9px 21px;
+    border-radius: 36px;
+    margin-right: 13px;
+    margin-bottom: 13px !important;
+    color: red;
+    background: none;
+    &:hover, &:focus {
+        background: #e73d2f !important;
+        color: #fff !important;
+        text-decoration: none !important;
+    }
+   } 
+}
+
+// -----------media query---------
+@media (max-width: 575px) {
+    .friendlist-people {
+        .message-btn {
+            margin-left: 90px;
+        }
+        .delete-icon {
+            float: right;
+            margin-top: -100px;
+        }
+    }
+}

@@ -1,0 +1,198 @@
+@import '../../../../assets/styles/variable.scss';
+/*@import '../../../../assets/styles/style.scss';*/
+$gameBg: #4F4F4F;
+
+.e3-startLater-section-header1 {
+    color: #333333;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.e3-start-later-link {
+    display: block;
+    text-align: left;
+    padding: 0;
+    &:focus {
+        outline: 0;
+        border: 2px solid #fdd647;
+    }
+}
+
+.e3-startLater-link1 {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #828282;
+    padding: 0;
+    text-decoration: underline;
+    &:focus {
+        outline: 0;
+        border: 2px solid #fdd647;
+    }
+}
+
+.e3-startLater-tag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1px;
+    // background-color: $gameBg;
+    align-items: center;
+    border-radius: 3px;
+    max-width: 85%;
+
+    .e3-startLater-tag-img  {
+        max-width: 12px;
+        margin-bottom: 0;
+        line-height: normal;
+        img {
+            border-radius: 2px;
+            border: 2px solid #C8C8C8
+        }
+    }
+}
+.bottom-line{
+    border-bottom: 1px solid #E7E7E7;
+}
+.e3-startLater-tag-text {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.startLaterimg img{
+    width: 100%;
+    border-radius: 2px;
+}
+.e3-startLater-startContent{
+    font-size: 10px;
+    color:$text-grey-3;
+    text-transform: uppercase;
+}
+.e3-startLater-title {
+    font-size: 12px;
+    color:$text-grey;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100px;
+}
+
+.e3-startLater-time{
+    font-size: 14px;
+    color:$text-grey;
+}
+
+.e3-startLater-next {
+    color: #ffffff;
+    background-color: $primaryColor;
+    border-radius: 3px;
+    bottom: 1px;
+    left: 2px;
+    font-size: 10px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.e3-startLater-next.badge.badge-default {
+    top: auto !important;
+}
+   
+@media only screen and (min-width:1200px) and (max-width:1250px){
+    .hideClass1 {
+        padding-left: 0;
+        padding-right: 0;
+        
+        }
+        .hideClass2 {
+            padding-left: 0;
+            padding-right: 0;
+
+        }
+        .widthClass{
+        max-width: 122px;
+    }
+}
+@media only screen and (min-width:980px) and (max-width:1020px){
+    .hideClass1 {
+        padding-left: 0;
+        padding-right: 0; 
+    }
+}
+@media only screen and  (min-width:1650px){
+    .widthClass{
+        max-width: 152px;
+    }
+}
+@media only screen and  (min-width:1357px) and  (min-width:1649px){
+    .widthClass{
+        max-width: 104px;
+    }
+}
+@media only screen and  (min-width:990px) and (max-width:1356px){
+    .widthClass{
+        max-width: 80px;
+    }
+}
+@media only screen and  (min-width:460px) and (max-width:989px){
+    .widthClass{
+        max-width: 200px;
+    }
+}
+@media only screen and  (max-width:459px){
+    .widthClass{
+        max-width: 100px;
+    }
+}
+
+
+  @media only screen and  (max-width:389px){
+    .h-50px{
+        height: 30px;
+      }
+    .w-70px{
+        min-width: 35px;
+        max-width: 35px;
+      }
+}
+@media only screen and  (min-width:390px){
+    .h-50px{
+        height: 50px;
+      }
+    .w-70px{
+        /*min-width: 70px;
+        max-width: 70px;*/
+      }
+}
+.marginspce16 {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+.start_desc_sty {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+.start_txt_sty {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+.start_time_style {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+}
+.badge_lightbg.startalign {
+    align-items: center !important;
+}

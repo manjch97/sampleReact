@@ -1,0 +1,44 @@
+@import '../../../assets/styles/variable.scss';
+@import '../../../assets/styles/style.scss';
+
+
+.e3-schedule-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: -15px;
+    margin-right: -15px;
+    .e3-schedule-img {
+        max-width: $scheduleImgWidth;
+        position: relative;
+        img { 
+            border-radius: 4px;
+        }
+        .e3-schedule-next {
+            position: absolute;
+            color: #0E0E10;
+            background-color: $secondaryColor;
+            border-radius: 3px;
+            top: 5px;
+            left: 5px;
+            text-align: center;
+            font-size: 10px;
+            line-height: normal;
+            padding: 3px 4px 2px;
+            text-transform: uppercase;
+        }
+    }
+    .e3-schedule-content {
+        width: 100%;
+        padding-left: $xsSpace;
+        .e3-schdule-title {
+            margin-bottom: 3px;
+            font-size: 13px;
+            color:$sideNavHeaderColor;
+            max-width: 100%;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+}

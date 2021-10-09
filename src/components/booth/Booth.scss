@@ -1,0 +1,119 @@
+@import "../../assets/styles/variable.scss";
+@import "../../assets/styles/style.scss";
+
+.e3-booth-banner {
+  display: flex;
+  flex-direction: column;
+  margin: -30px -30px 0 -30px;
+  max-height: 250px;
+  overflow: hidden;
+}
+.e3-booth-header {
+  margin-bottom: 30px;
+}
+.e3-booth-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .e3-booth-title h4 {
+    margin-bottom: 0;
+  }
+  .e3-booth-sub-title {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #bdbdbd;
+  }
+  .e3-booth-logo {
+    min-width: 80px;
+    height: 80px;
+    background: #f2f2f2;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    border: 1px solid #bdbdbd;
+    margin-right: 15px;
+    img {
+      max-height: 50px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .e3-booth-badge {
+      position: absolute;
+      bottom: -10px;
+      background: $primaryColor;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 400;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 5px 10px;
+    }
+  }
+}
+.count {
+  background-color: $secondaryColor;
+  height: 11px;
+  width: 11px;
+  border-radius: 44px;
+  display: inherit;
+  font-size: 7px;
+  line-height: 12px;
+  position: relative;
+  top: -1px;
+  color: #333;
+}
+
+.sub-title {
+  font-size: medium;
+  color: #828282;
+}
+
+.s-title {
+  color: #828282;
+}
+
+.title {
+  color: #333333;
+}
+.modal-content {
+  padding: 20px;
+}
+.fl-right{
+  float:right;
+}
+//  .secondaryBG{    background-color: #fdd647 !important;}
+
+// -----------media query---------
+@media (max-width: 767px) {
+  .e3-booth-title-container {
+    .e3-booth-title h4 {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .e3-booth-title-container {
+    .e3-booth-title h4 {
+      font-size: 1rem;
+    }
+  }
+}
+@media only screen and (max-width: 1400px) and (min-width: 1290px)  {
+  .responsealign.col-xl-6 {
+    padding-left:0 !important;
+    padding-right:0 !important;
+    text-align: left !important;
+  }
+  .responsealign {
+    .e3-button {
+      padding-left: 0.35rem;
+      padding-right: 0.35rem;
+    }
+    .responreward {
+      margin-right: 5px !important;
+    }
+  }
+}

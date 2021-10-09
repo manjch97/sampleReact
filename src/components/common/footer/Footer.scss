@@ -1,0 +1,18 @@
+.Footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    border-top: 1px solid #dcd9d9;
+}
+.logo {
+    height: 24px;
+    margin: 8px;
+}
+.logo-align {
+    right: 0;
+    bottom: 5px;
+    position: fixed;
+    display: inline-flex;
+}

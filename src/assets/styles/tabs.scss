@@ -1,0 +1,72 @@
+@import "../styles/variable.scss";
+@import "../styles/mixin.scss";
+.nav-tabs{border:0 !important}
+
+// -------- login signup tab------
+.LStab .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+  font-size: 20px !important;
+  padding: 0;
+  margin-right: 26px;
+  height: 38px;
+  font-weight: 500 !important;
+}
+.LStab .nav-link:focus, .LStab .nav-link:hover{  border-color: #fff #fff #fff;
+}
+.LStab .nav-tabs .nav-item.show .nav-link,
+.LStab  .nav-link.active {
+  color: #495057;
+  background-color: #fff;
+  border-color: #fff #fff #fff;
+  color: $primaryColor;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-top: 0 !important;
+  border-bottom: 3px solid #e73d2f !important;
+}
+// ---------PaymentTab----------
+#PaymentTab{
+  border-bottom: 3px solid #e73d2f !important;
+}
+// -----------customer preference------------
+.customer-pref .nav-tabs {	
+	border-bottom: none !important;
+    max-width: 450px;
+}
+.customer-pref .nav-tabs .nav-item.show .nav-link, .customer-pref .nav-tabs .nav-link {	
+    color: #828282 ;
+    border-color: #fff #fff #fff !important;
+    text-align: center;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+	margin: auto;
+    line-height: 18px;
+}
+.customer-pref .nav-tabs .nav-item.show .nav-link, .customer-pref .nav-tabs .nav-link.active {
+  color: $primaryColor;
+	border-bottom: none !important;
+}
+// --------forum Tab------
+.forumTab .nav-tabs{
+  border-bottom: none !important;
+}
+.forumTab .nav-tabs .nav-link{
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  border: 1px solid;
+  border-color: #bdbdbd !important;
+  padding: 9px 21px;
+  border-radius: 36px;
+  margin-right: 13px;
+  margin-bottom: 13px;
+  text-decoration: none;}
+
+.forumTab  .nav-tabs .nav-link.active {  background: #e73d2f ;
+  color: #fff !important ;
+  text-decoration: none;
+}
+.nav-tabs a.nav-link {
+  text-decoration: none;
+}
+//.forumMain .text-muted{color: #BDBDBD !important;}

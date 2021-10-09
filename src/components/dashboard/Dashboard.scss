@@ -1,0 +1,131 @@
+.dashboard{    padding: 20px;
+    overflow: hidden;
+    margin: 0;}
+.booths{
+img{border-radius: 4px;}
+p{font-size: 13px;}
+}
+
+.GameDemo {
+    .badge{
+    font-size: 9px !important;
+    height: 19px !important;
+   font-size: 9px !important;
+    height: 19px !important;
+    padding: 0 5px !important;
+    line-height: 20px !important;
+    text-align: left !important;
+    }
+        .pubg{margin-top: 2px !important;
+    margin-left: -2px;    height: 15px;}
+
+    .ArcadeAvatar img{    width: 30px;
+    min-width: 30px;
+    height: 30px;}
+}
+ .GameDemo .l-s-avatar {line-height: 14px; padding: 0px !important;}
+ .containerminht {
+     min-height: 850px;
+ }
+.avatar-img{
+    margin: 5px;
+    position: absolute;
+}
+.commentwrapersec-t.dropdown-menu  {
+    padding: 10px !important;
+    border-color: #FDD647;
+    border: 1px solid #FDD647;
+    box-sizing: border-box;
+    box-shadow: 0px 14px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 15px 15px 0 15px;
+    transform: translate(0px, -170px) !important;
+    margin-left:-115px !important;
+    inset: auto auto auto auto !important;
+  }
+  .commentwrapersec-t .dropdown-item {
+    padding:10px 0 !important;
+    margin-bottom: 10px;
+  }
+  .dotsDropDown .dropdown-menu.commentwrapersec-t .dropdown-item:hover {
+    background-color:#FFFFFF !important;
+    color:#C4C4C4;
+  }
+  .replyicon path {
+    fill: #333333;
+    stroke: #333333;
+  }
+  span.cmtdrptxt {
+    padding-left: 10px;
+  }
+  .commentwrapersec-t .dropdown-item:hover, .commentwrapersec-t .dropdown-item:focus {
+    color: #E73D2F;
+  }
+  .commentwrapersec-t .dropdown-item:hover path,.commentwrapersec-t .dropdown-item:focus path {
+    fill: #E73D2F;
+    stroke: #E73D2F;
+  }
+ 
+  .e3-booth-title-container .e3-booth-logos {
+    min-width: 55px;
+    height: 60px;
+    background: #f2f2f2;
+    border-radius: 50%;
+    position: relative;
+    border: 1px solid #bdbdbd;
+}
+.e3-booth-title-container .e3-booth-logos .e3-booth-badges {
+  position: absolute;
+  bottom: -10px;
+  background: #e73d2f !important;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+}
+
+.video-js .vjs-big-play-button{
+position: absolute;
+top:50% !important;
+bottom: 50% !important;
+left:43% !important;
+}
+.mll-30{
+  margin-left:-30px;
+}
+.tick{
+  border-radius: 50%;
+  width: 15px;
+}
+
+.f-13{
+  font-size: 13px;
+}
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+
+.e3-media-react-players {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.toggle-pip {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+
+.schat{
+  margin-top:10px;
+  margin-left:45px;
+  font-weight: 500;
+}
+.comment-box{
+  background:#F5F5F5;
+  bottom: 0;
+  position: absolute;
+}

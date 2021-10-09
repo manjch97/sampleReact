@@ -1,0 +1,20 @@
+.Trending{
+  .badgeBor{border: 3px solid #DFDFDF;border-radius: 10px;padding: 20px; 
+  img{text-align: center;margin: 0px auto; width: 80px;}
+  }
+   
+}
+.arrowTop{.slick-next{right: 0px !important;
+    }
+    .slick-prev {
+    right: 18px;}
+.slick-next, .slick-prev{background: none !important; top: -8px !important; color: #DFDFDF;}
+.slick-prev:before, .slick-next:before{    border: solid #828282 !important;border-width: 0px 3px 3px 0px !important;}
+.slick-list {
+    padding: 15px 0 !important;
+}
+.slick-slide img{border-radius: 5px;}
+}
+ .AvatarSm{
+    width: 28px !important;
+    img{width: 25px !important; height: 25px !important; min-width: 25px !important;}}

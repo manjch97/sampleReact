@@ -1,0 +1,20 @@
+.active-people {
+  color: var(--primary);
+}
+.headp_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+.marginsp_bottom {
+  margin-bottom: 20px;
+}
+.filter_button, .filter_button:hover, .filter_button:focus {
+  border: solid 2px #e73d2f;
+  background-color: #e73d2f;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+}

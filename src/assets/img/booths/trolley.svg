@@ -1,0 +1,18 @@
+<svg width="171" height="138" viewBox="0 0 171 138" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="171" height="138" fill="#E8E8E8"/>
+<g id="Help" clip-path="url(#clip0)">
+<rect width="1600" height="907" transform="translate(-507 -260)" fill="white"/>
+<g id="Component 53">
+<rect id="Rectangle 2645" width="171" height="138" rx="15" fill="#F8F8F8"/>
+</g>
+<g id="Group 1">
+<path id="Vector 5" d="M82.5757 95.8819L117.089 86.634M47 42L54.9292 39.8754C55.9962 39.5895 57.0928 40.2227 57.3787 41.2896L70.0724 88.6631M96.1326 67.5882L92.6096 54.4401M92.6096 54.4401L89.0002 60.6918M92.6096 54.4401L98.8612 58.0495M108.382 40.9891L116.517 71.3509C116.946 72.9512 115.996 74.5963 114.396 75.0251L84.0344 83.1605C82.434 83.5893 80.789 82.6396 80.3602 81.0392L72.2248 50.6775C71.7959 49.0771 72.7457 47.432 74.3461 47.0032L104.708 38.8678C106.308 38.439 107.953 39.3887 108.382 40.9891Z" stroke="#828282" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle id="Ellipse 15" cx="72.7148" cy="98.5225" r="10.2089" transform="rotate(-15 72.7148 98.5225)" stroke="#828282" stroke-width="4"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="1600" height="907" fill="white" transform="translate(-507 -260)"/>
+</clipPath>
+</defs>
+</svg>

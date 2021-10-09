@@ -1,0 +1,189 @@
+@import "../../../assets/styles/variable.scss";
+@import "../../../assets/styles/style.scss";
+
+.p-bar {
+  padding: 1px 10px 10px 10px;
+  background: #f2f2f2;
+  border-radius: 5px;
+}
+.key {
+  width: 12px;
+  padding-bottom: 5px;
+}
+.level {
+  margin-left:20px;
+  padding-bottom: 5px;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #e73d2f;
+}
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #333333;
+  font-size: 20px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
+
+.progressBar {
+  margin-top: 1em;
+}
+.progress {
+  height: 0.9em;
+}
+.p-bar-end {
+  float: right;
+}
+.ml1 {
+  margin-left: 8%;
+}
+
+.goal-p-chart {
+  width: 100%;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.reward {
+  color: black;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.btns {
+  border-radius: 20px;
+  background-color: #fdd647 !important;
+  border: 2px solid #fdd647 !important;
+}
+.testkey {
+  margin-bottom: -20px;
+  width: 12px;
+}
+.smal-btn {
+  margin-left: 15px;
+}
+.lock-card {
+  border: unset;
+  background: #fff2f1;
+  height: 80px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+
+  border-radius: 10px 0px 0px 0px;
+}
+
+.unlock-card {
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  background: #fffcf2;
+  border: unset;
+  height: 80px;
+  border-radius: 0px 10px 0px 0px;
+}
+.fl-right {
+  float: right;
+}
+
+.locks {
+  width: 17px;
+  margin-left: -18px;
+  width: 17px;
+}
+.locked {
+  margin-top: -20px;
+  margin-left: 20px;
+}
+.lo {
+  border-radius: 10px;
+  width: 15px;
+  padding: 0;
+}
+.f-small {
+  font-size: x-small;
+}
+.ycup-bg {
+ 
+  padding: 10px;
+  border-radius: 10px;
+  background: #fafafa;
+  border: 3px solid #ffdbdb;
+}
+.cup-bg {
+  
+  padding: 10px;
+  border-radius: 10px;
+  background: #fafafa;
+  border: 3px solid #b7dcc7;
+}
+.pinkdot {
+  margin-top: -25px;
+  width: 35px;
+  margin-left: 10px;
+}
+.lock-p {
+  width: 25px;
+  margin-top: -10px;
+  margin-right: -5px;
+}
+.f-12 {
+  font-size: 12px;
+}
+
+.mob-view {
+  display: none;
+}
+.desktopview {
+  display: block;
+}
+
+.cup-img {
+  width: 40px;
+}
+.d-goals {
+  white-space: nowrap;
+  font-weight: 400;
+}
+.lock-txt{
+  margin-left: -65px;
+  margin-top: 6px;
+  color: white;
+  font-weight: 500;
+}
+.unlock-txt {
+  margin-left: -95px;
+  margin-top: 7px;
+  color: white;
+  font-weight: 500;
+}
+.p-charts {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.goals-popup-tabs.navbar-nav{
+  flex-direction: row;
+}
+
+@media (max-width: 767px) {
+  .mob-view {
+    display: block;
+  }
+  .lock-card {
+    background: none;
+  }
+
+  .unlock-card {
+    background: none;
+  }
+  .desktopview {
+    display: none;
+  }
+  .pinkdot {
+    margin-top: -35px;
+    width: 35px;
+    margin-left: 30px;
+  }
+  .lock-p {
+    margin-bottom: 10px;
+    margin-left: 40px;
+  }
+}

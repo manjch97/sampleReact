@@ -1,0 +1,28 @@
+.shadow-box-setting{
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding:25px;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+}
+.notifyMessage{
+    font-size: 16px;
+    line-height: 19px;
+    color: #828282;
+}
+.settingCard{
+    border: none;
+}
+.custom-control-label::before {
+    background-color: #F8F8F8;
+}
+
+.custom-switch .custom-control-label::after {
+    background-color: #707070;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    background-color: #27AE60;
+}
+.custom-control-input:checked~.custom-switch::after {
+    background-color: #27AE60;
+}

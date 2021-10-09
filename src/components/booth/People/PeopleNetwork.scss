@@ -1,0 +1,84 @@
+.head{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-left: 0px;
+}
+.head1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.peopleNetwork{
+    // position: absolute;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    // margin-left: -10px;
+}
+
+.cardText{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #8A96A3;
+    padding:4px;
+    margin-top: -20px
+}
+.e3-people-options {
+    background: transparent;
+    border: 0;
+    color:#ADB5BE;
+    max-width: 10px;
+    position: absolute;
+    right:4px;
+}
+.e3-people-tags-card {
+    .badge {
+        margin-right: 4px;
+        border-radius: 2px;
+        background: #4F4F4F;;
+        color: white;
+        height: 18px;
+        font-size: 12px;
+    }
+}
+
+.cardName{
+    color:#171736;
+}
+.followButton{
+    background-color: #FDD647;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    // width:55px;
+    // height: 18px;
+    outline: 0px;
+    border-color: #FDD647;
+}
+.liveDisplay{
+    display:none;
+}
+.filterPart {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.marginsphead {
+    margin-bottom: 20px;
+}

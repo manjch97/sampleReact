@@ -1,0 +1,30 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="50" height="50" fill="#E8E8E8"/>
+<g id="Booth - Quest - Rewards" clip-path="url(#clip0)">
+<rect width="1600" height="1162" transform="translate(-457 -708)" fill="white"/>
+<g id="Rectangle 2662" filter="url(#filter0_d)">
+<rect x="-167" y="-228" width="1268" height="655" rx="10" fill="white"/>
+</g>
+<g id="Group 5564">
+<rect id="Rectangle 2663" x="-129.5" y="-110.5" width="164" height="144" rx="8.5" fill="#FAFAFA" stroke="#FFDBDB" stroke-width="3"/>
+<g id="Group 5563">
+<circle id="Ellipse 96" cx="25" cy="25" r="25" fill="#FFF2F1"/>
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M25 12C21.7455 12 19.1071 14.7523 19.1071 18.1475V21.4296C17.6622 21.4436 16.8199 21.5142 16.145 21.8729C15.4058 22.2659 14.8048 22.8928 14.4282 23.664C14 24.5407 14 25.6883 14 27.9836V30.4426C14 32.7379 14 33.8856 14.4282 34.7623C14.8048 35.5334 15.4058 36.1604 16.145 36.5533C16.9854 37 18.0855 37 20.2857 37H29.7143C31.9145 37 33.0146 37 33.855 36.5533C34.5942 36.1604 35.1952 35.5334 35.5718 34.7623C36 33.8856 36 32.7379 36 30.4426V27.9836C36 25.6883 36 24.5407 35.5718 23.664C35.1952 22.8928 34.5942 22.2659 33.855 21.8729C33.1801 21.5142 32.3378 21.4436 30.8929 21.4296V18.1475C30.8929 14.7523 28.2545 12 25 12ZM28.5357 21.4262V18.1475C28.5357 16.1104 26.9527 14.459 25 14.459C23.0473 14.459 21.4643 16.1104 21.4643 18.1475V21.4262H28.5357ZM26.1786 30.1137C26.8831 29.6885 27.3571 28.8938 27.3571 27.9836C27.3571 26.6255 26.3018 25.5246 25 25.5246C23.6982 25.5246 22.6429 26.6255 22.6429 27.9836C22.6429 28.8938 23.1169 29.6885 23.8214 30.1137V32.082C23.8214 32.761 24.3491 33.3115 25 33.3115C25.6509 33.3115 26.1786 32.761 26.1786 32.082V30.1137Z" fill="#E73D2F"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" x="-197" y="-254" width="1328" height="715" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="15"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<clipPath id="clip0">
+<rect width="1600" height="1162" fill="white" transform="translate(-457 -708)"/>
+</clipPath>
+</defs>
+</svg>

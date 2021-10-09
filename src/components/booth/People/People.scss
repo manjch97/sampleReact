@@ -1,0 +1,106 @@
+.e3-people-to-network {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15px;
+    position: relative;
+    .e3-people-to-network-img {
+      background: rgb(255, 254, 254);
+      border: 1px solid #e6e6e6;
+      position: relative;
+      width: 43px;
+      height: 43px;
+      margin-bottom: 0;
+      line-height: normal;
+      margin: 0 auto;
+      top: 7px;
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+  
+.figure_act {
+    .e3-people-to-network-img {
+        border-radius: 50%;
+        text-align: center;
+        line-height: 43px;
+        background: #FFFFFF;
+        color:#0e0e10;
+    }
+}
+
+.e3-people-item-network {
+    margin-bottom: 0px;
+    // position: relative;
+    .e3-people-img-network { 
+        // position: relative;
+        // width: 43px;
+        // height: 43px;
+        width: 40px;
+        height: 40px;
+        margin: 0 auto 10px;
+        line-height: normal;
+        top: 7px;
+        img { 
+            border-radius: 50%;
+            border: 2px solid #cfd8dc;
+        }
+    }
+    .e3-people-item-network-link{
+        padding: 0;
+        color: #0e0e10;
+        &:focus {
+            outline: 0;
+            border: 2px solid #fdd647; 
+        }
+    }
+    .networkimg{
+        width:61px;
+        height: 61px;
+    }
+    .e3-people-video-network-normal {
+        position: absolute;
+        top: -2px;
+        // right: 0px;
+        // display: inline-block;
+        width: 20px;
+        height: 12px;
+        background-color:  #C4C4C4;
+        border-radius: 17%;
+        text-align: center;
+        font-size: 6px;
+        line-height: 13px;
+        color:black;
+        .liveText{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+    }
+    .liveDisplayRed{
+        background-color: #E73D2F;
+        color: white;
+    }
+    .liveDisplayGray{
+        background-color: #C4C4C4;
+    }
+}
+.scrollIcon{
+    font-size: 1.33em;
+    color: #828282;
+}
+.e3-people-arrow-scroll {
+     background: white;
+    max-width: 10px;
+    position: absolute;
+    right:50px;
+    display: none;
+}
+@media (max-width: 927px) {
+    .scrollPeople {
+      overflow: hidden;
+    }
+  }

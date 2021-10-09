@@ -1,0 +1,422 @@
+{
+    "signup_click": {
+        "event": "click",
+        "eventName": "signup_click",
+        "eventData": {}
+    },
+    "attendee_signup_click": {
+        "event": "click",
+        "eventName": "attendee_signup_click",
+        "eventData": {}
+    },
+    "industry_signup_click": {
+        "event": "click",
+        "eventName": "industry_signup_click",
+        "eventData": {}
+    },
+    "industry_signup_back_click": {
+        "event": "click",
+        "eventName": "industry_signup_back_click",
+        "eventData": {}
+    },    
+    "attendee_signup_register_click": {
+        "event": "click",
+        "eventName": "attendee_signup_register_click",
+        "userid":"",
+        "eventData": {
+        }
+    },
+    "industry_signup_register_click": {
+        "event": "click",
+        "eventName": "industry_signup_register_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "membershiptype_click": {
+        "event": "click",
+        "eventName": "membershiptype_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "forum_like": {
+        "event": "click",
+        "eventName": "forum_like",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "forum_comment_update": {
+        "event": "click",
+        "eventName": "forum_comment_update",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "forum_comment_delete": {
+        "event": "click",
+        "eventName": "forum_comment_delete",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "credential_payment_checkout": {
+        "event": "click",
+        "eventName": "credential_payment_checkout",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "login_click":{
+        "event":"click​",
+        "eventName":"login_click",
+        "userid":"",
+        "eventData":{
+        }
+    },
+    "forgot_password_link_click":{
+        "event":"click​",
+        "eventName":"forgot_password_link_click",
+        "userid":"",
+        "eventData":{
+        }
+    },
+    "reset_forgot_password_btn_click":{
+        "event":"click​",
+        "eventName":"reset_forgot_password_btn_click",
+        "userid":"",
+        "eventData":{
+        }
+    },
+    "thankyou_click": {
+        "event": "click",
+        "eventName": "thankyou_click",
+        "eventData": {}
+    },
+    "open_login_click": {
+        "event": "click",
+        "eventName": "open_login_click",
+        "eventData": {}
+    },
+    "terms_of_service_click": {
+        "event": "click",
+        "eventName": "terms_of_service_click",
+        "eventData": {}
+    },
+    "terms_of_service_close_click": {
+        "event": "click",
+        "eventName": "terms_of_service_close_click",
+        "eventData": {}
+    },
+    "terms_of_service_agree_click": {
+        "event": "click",
+        "eventName": "terms_of_service_agree_click",
+        "eventData": {}
+    },
+    "choose_membership_click": {
+        "event": "click",
+        "eventName": "choose_membership_click",
+        "eventData": {}
+    },
+    "membership_goback_click": {
+        "event": "click",
+        "eventName": "membership_goback_click",
+        "eventData": {}
+    },
+    "payment_goback_click": {
+        "event": "click",
+        "eventName": "payment_goback_click",
+        "eventData": {}
+    },
+    "payment_confirm_click": {
+        "event": "click",
+        "eventName": "payment_confirm_click",
+        "eventData": {}
+    },
+
+    "refundpolicy_link_click": {
+        "event": "click",
+        "eventName": "refundpolicy_link_click",
+        "eventData": {}
+    },
+    "refundpolicy_modalclose_click": {
+        "event": "click",
+        "eventName": "refundpolicy_modalclose_click",
+        "eventData": {}
+    },
+    "refundpolicy_api_click": {
+        "event": "click",
+        "eventName": "refundpolicy_api_click",
+        "eventData": {}
+    },
+    "booth_article_click": {
+        "event": "click",
+        "eventName": "booth_article_click",
+        "eventData": {}
+    },
+    "gamedemos_click": {
+        "event": "click",
+        "eventName": "gamedemos_click",
+        "eventData": {}
+    },
+    "header_avatar_click": {
+        "event": "click",
+        "eventName": "header_avatar_click",
+        "eventData": {}
+    },
+    "forum_featured_topic_click": {
+        "event": "click",
+        "eventName": "forum_featured_topic_click",
+        "eventData": {}
+    },
+    "forum_mostrecent_topic_click": {
+        "event": "click",
+        "eventName": "forum_mostrecent_topic_click",
+        "eventData": {}
+    },
+    "forum_mostsearched_topic_click": {
+        "event": "click",
+        "eventName": "forum_mostsearched_topic_click",
+        "eventData": {}
+    },
+    "forumdetail_like": {
+        "event": "click",
+        "eventName": "forumdetail_like",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "booth_reward_click": {
+        "event": "click",
+        "eventName": "booth_reward_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "booth_gamedemos_click": {
+        "event": "click",
+        "eventName": "booth_gamedemos_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "booth_about_click": {
+        "event": "click",
+        "eventName": "booth_about_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "booth_media_click": {
+        "event": "click",
+        "eventName": "booth_media_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "booth_event_click": {
+        "event": "click",
+        "eventName": "booth_event_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "booth_sidearticle_click": {
+        "event": "click",
+        "eventName": "booth_sidearticle_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "bootharticledetails_api_call": {
+        "event": "click",
+        "eventName": "bootharticledetails_api_call",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "bootharticlecomments_api_call": {
+        "event": "click",
+        "eventName": "bootharticlecomments_api_call",
+        "userid": "",
+        "eventData": {
+        }
+    }
+    ,
+    "boothsimilararticle_api_call": {
+        "event": "click",
+        "eventName": "boothsimilararticle_api_call",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "booth_showallrequest_click": {
+        "event": "click",
+        "eventName": "booth_showallrequest_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "booth_accept_button_click": {
+        "event": "click",
+        "eventName": "booth_accept_button_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "booth_deny_button_click": {
+        "event": "click",
+        "eventName": "booth_deny_button_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "avatar_skip_click": {
+        "event": "click",
+        "eventName": "avatar_skip_click",
+        "userid": "",
+        "eventData": {
+        }
+    },    
+    "avatar_confirm_click": {
+        "event": "click",
+        "eventName": "avatar_confirm_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "show_setting_account_click": {
+        "event": "click",
+        "eventName": "show_setting_account_click",
+        "userid": "",
+        "eventData": {
+        }
+    },   
+    "hide_setting_account_click": {
+        "event": "click",
+        "eventName": "hide_setting_account_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "customer_preference_backbtn_click": {
+        "event": "click",
+        "eventName": "customer_preference_backbtn_click",
+        "userid": "",
+        "eventData": {
+        }
+    }, 
+    "interest_backbtn_click": {
+        "event": "click",
+        "eventName": "interest_backbtn_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "interest_continue_btnclick_for_customer_preference": {
+        "event": "click",
+        "eventName": "interest_continue_btnclick_for_customer_preference",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "booth_editschedule_openmodal_click": {
+        "event": "click",
+        "eventName": "booth_editschedule_openmodal_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "booth_editschedule_hidemodal_click": {
+        "event": "click",
+        "eventName": "booth_editschedule_hidemodal_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "gamedemos_publicdemos_click": {
+        "event": "click",
+        "eventName": "gamedemos_publicdemos_click",
+        "userid": "",
+        "eventData": {
+        }
+    }, 
+    "gamedemos_demoinvites_click": {
+        "event": "click",
+        "eventName": "gamedemos_demoinvites_click",
+        "userid": "",
+        "eventData": {
+        }
+    }, 
+    "booth_reward_goals_click": {
+        "event": "click",
+        "eventName": "booth_reward_goals_click",
+        "userid": "",
+        "eventData": {
+        }
+    }, 
+    "booth_reward_rewards_click": {
+        "event": "click",
+        "eventName": "booth_reward_rewards_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "arcade_publicdemos_click": {
+        "event": "click",
+        "eventName": "arcade_publicdemos_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "booth_follow_click": {
+        "event": "click",
+        "eventName": "booth_follow_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "booth_events_addeventbtn_click": {
+        "event": "click",
+        "eventName": "booth_events_addeventbtn_click",
+        "userid": "",
+        "eventData": {
+        }
+    }, 
+    "booth_events_addevent_submitbtn_click": {
+        "event": "click",
+        "eventName": "booth_events_addevent_submitbtn_click",
+        "userid": "",
+        "eventData": {
+        }
+    },     
+    "booth_events_addevent_hidemodalbtn_click": {
+        "event": "click",
+        "eventName": "booth_events_addevent_hidemodalbtn_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "booth_events_editeventbtn_click": {
+        "event": "click",
+        "eventName": "booth_events_editeventbtn_click",
+        "userid": "",
+        "eventData": {
+        }
+    },      
+    "booth_events_editevent_hidemodalbtn_click": {
+        "event": "click",
+        "eventName": "booth_events_editevent_hidemodalbtn_click",
+        "userid": "",
+        "eventData": {
+        }
+    },
+    "booth_events_editevent_submitbtn_click": {
+        "event": "click",
+        "eventName": "booth_events_editevent_submitbtn_click",
+        "userid": "",
+        "eventData": {
+        }
+    }    
+}

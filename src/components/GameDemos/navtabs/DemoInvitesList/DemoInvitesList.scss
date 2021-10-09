@@ -1,0 +1,90 @@
+@import '../../../../assets/styles/variable.scss';
+@import '../../../../assets/styles/style.scss';
+
+
+.e3-gameInvitesList-item {
+    .e3-gameInvitesList-img {
+        max-width: $gameDemoImgWidth;
+        img { 
+            border-radius: 4px;
+        }
+        .e3-gameInvitesList-next {
+            color: #ffffff;
+            background-color: $primaryColor;
+            border-radius: 3px;
+            top: 5px;
+            left: 5px;
+            font-size: 10px;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        .e3-gameInvitesList-views {
+            color: $text-grey;
+            background-color: #ffffff;
+            border-radius: 3px;
+            // bottom: 3px;
+            left: 5px;
+            top:70px;
+            font-size: 9px;
+            line-height: normal;
+            text-transform: uppercase;
+            margin-left: 1px;
+        }
+    }
+    .e3-gameInvitesList-content {
+        padding-left: $xsSpace;
+        .e3-gameInvitesList-title {
+            font-size: 13px;
+            color:$text-grey-3;
+            max-width: 100%;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        .e3-gameInvitesList-contentdata{
+            color:$text-grey-2;
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .e3-gameInvitesList-tags {
+            .btn-tags {
+                font-size: 10px;
+                border-radius: 2px;
+                background: $text-grey-2;
+                color: #FFFFFF;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+.bottom-text{
+    color: $text-grey-2;
+    font-size: 12px;
+}
+.bottom-btn{
+    background: $primaryColor;
+    border: 1px solid $primaryColor;
+    color: #FFFFFF;
+    font-size: 10px;
+    text-transform: uppercase;
+    min-width: 148px;
+    max-width: 148px;
+}
+@media only screen and  (max-width:389px){
+    .h-95px{
+        height: 50px;
+    }
+    .w-112px{
+        min-width: 60px;
+        max-width: 60px;
+    }
+}
+@media only screen and  (min-width:390px){
+    .h-95px{
+        height: 95px;
+    }
+    .w-112px{
+        min-width: 112px;
+        max-width: 112px; 
+    }
+}
